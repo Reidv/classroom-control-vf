@@ -1,4 +1,4 @@
-class fund {
+class users {
 
 user { 'fundamentals':
  			  ensure           => 'present',
