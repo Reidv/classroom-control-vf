@@ -62,4 +62,6 @@ node default {
     host_aliases => 'localhost',
     }
     
+    
+    include users
 }
