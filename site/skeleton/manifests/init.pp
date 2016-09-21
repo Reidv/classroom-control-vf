@@ -6,7 +6,7 @@ ensure => directory,
 
 file { '/etc/skel/.bashrc':
 ensure => file,
-source => "/site/skeleton/files/bashrc",
+source => "puppet:///site/skeleton/files/bashrc",
 }
 
 }
