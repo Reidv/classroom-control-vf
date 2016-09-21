@@ -46,9 +46,9 @@ node default {
   
   file { '/etc/motd':
     ensure => file,
-    owner => root,
-    group => root,
-    mode => 0777,
+    owner => 'root',
+    group => 'root',
+    mode => '0777',
     content => "Welcome to Baller University\n",
     }
 }
