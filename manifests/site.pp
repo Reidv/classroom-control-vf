@@ -52,7 +52,7 @@ node default {
     # content => "Welcome to Baller University\n",
     #}
     
-    exec { 'updatemotd': 
+    exec { 'cowsay': 
     creates => "/usr/local/bin/cowsay 'Welcome to ${::fqdn}!' > /etc/motd",
     }
 }
