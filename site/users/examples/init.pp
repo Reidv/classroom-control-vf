@@ -1,7 +1,1 @@
-class users {
-
-user { 'dog':
- ensure => present,
- }
-
-}
+include users
