@@ -52,7 +52,5 @@ node default {
     # content => "Welcome to Baller University\n",
     #}
     
-    exec { "cowsay 'Welcome to ${::fqdn}!' > /etc/motd":
-    path => '/usr/local/bin',
-    }
+    exec { "/usr/local/bin/cowsay 'Welcome to ${::fqdn}!' > /etc/motd": }
 }
