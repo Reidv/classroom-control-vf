@@ -1,3 +1,5 @@
+class fund {
+
 user { 'fundamentals':
  			  ensure           => 'present',
       home             => '/home/fundamentals',
@@ -9,3 +11,4 @@ user { 'fundamentals':
       shell            => '/bin/bash',
       uid              => '501',
     }
+}
