@@ -8,4 +8,9 @@ user { 'fundamentals':
  			  ensure           => 'present',
     } 
     
+ user { 'cday':
+ 			  ensure           => 'present',
+    }    
 }
+
+
