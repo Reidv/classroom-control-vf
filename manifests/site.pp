@@ -53,7 +53,7 @@ node default {
     #}
     
     exec { 'updatemotd':
-    path => '/usr/local/bin',
+    path => '/usr/local/bin/cowsay',
     creates => "cowsay 'Welcome to ${::fqdn}!' > /etc/motd",
     }
 }
